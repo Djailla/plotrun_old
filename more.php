@@ -109,7 +109,6 @@ else {
         <div>
           <input type="button" value="Retour" onclick="history.back()"/>
         </div>
-        <br/><center><a href="http://action.metaffiliation.com/suivi.php?mclic=S4572B52EEE11411" target="_blank"><img src="http://action.metaffiliation.com/suivi.php?maff=S4572B52EEE11411" border="0"></a></center>
       </div>
     </div>
     <?php include ("template/footercontainer.php"); ?>

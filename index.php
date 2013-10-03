@@ -65,7 +65,6 @@
           <div class="wait_invisible" id="message">Veuillez patienter... <img src="images/wait.gif"></div>
           <br/><input type='button' name='logout' value='Reset' onclick="self.location.href='logout.php'">
         </div>
-        <br/><center><a href="http://action.metaffiliation.com/suivi.php?mclic=S4572B52EEE11411" target="_blank"><img src="http://action.metaffiliation.com/suivi.php?maff=S4572B52EEE11411" border="0"></a></center>
       </div>
     </div>
     <?php include ("template/footercontainer.php"); ?>
