@@ -1,0 +1,53 @@
+
+
+body {
+	background-color: #FFCC99;
+}
+
+#footer {
+	height: 2em;
+	text-align: center;
+}
+
+#menu {
+	text-align: center;
+}
+
+#menu li {
+	display: inline;
+}
+
+.CSSTableGenerator {
+	width:600px;
+}.CSSTableGenerator table{
+	width:100%;
+	border-collapse:collapse;
+	/*border:1px solid #000000;*/
+}
+.CSSTableGenerator tr:nth-child(odd){ background-color:#DFDFDF; }
+.CSSTableGenerator tr:nth-child(even){ background-color:#ffffff; }
+
+.CSSTableGenerator th{
+	vertical-align:middle;
+	background-color:#B2B2B2;
+
+	/*border:1px solid #000000;*/
+	text-align:left;
+
+	padding:5px;
+	font-size:16px;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	border-top:1px solid #000000;
+	text-align:center;
+	padding:2px 3px 2px 3px;
+}
+
+.CSSTableGenerator td b,a,i{
+	font-size:14px;
+}

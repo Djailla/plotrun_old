@@ -1,0 +1,9 @@
+.wait_invisible
+{
+ visibility: hidden;
+}
+
+.wait_visible
+{
+ visibility: visible;
+}
