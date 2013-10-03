@@ -70,12 +70,12 @@ if ($run_info != false) {
     echo '<td>';
     # Display GPS icon
     if ($value[gps] == 1) {
-      echo '<img src="images/gps_mini.png" alt="GPS" width="20" height="20"/>';
+      echo '<img src="images/gps_mini.png" alt="GPS" height="24"/>';
     }
 
     # Display HeartRate icon
     if ($value[heartrate] == 1) {
-      echo '<img src="images/heart.png" alt="Cardio" width="20" height="20"/>';
+      echo '<img src="images/heart.png" alt="Cardio" height="24"/>';
     }
     echo '</td>';
 
