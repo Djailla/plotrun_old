@@ -28,9 +28,6 @@ else {
 <head>
   <title>PlotRun - Nike+ Alternative</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<!--   <link rel="stylesheet" href="styles/style.css" type="text/css" />
-  <link rel="stylesheet" href="styles/template.css" type="text/css" />
-  <link rel="stylesheet" href="styles/wait.css" type="text/css" /> -->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript">
 
@@ -129,27 +126,14 @@ $(function () {
 <body>
 <script src="lib/highcharts/js/highcharts.js"></script>
 <script src="lib/highcharts/js/modules/exporting.js"></script>
-<!-- <?php include ("template/feedback.php"); ?> -->
-  <!-- <div id="dvmaincontainer"> -->
-    <!-- <?php include ("template/topcontainer.php"); ?> -->
-    <!-- <div id="dvbodycontainer"> -->
-      <!-- <div id="dvbannerbgcontainer" align="center"> -->
-        <div id="container" style="width: 1200px; height: 1000px; margin: 0 auto"></div>
-        <?php
-
-        if (isset($run_data['gps'])) {
-            print "<br/><input type='button' name='gpx_export' value='Export GPX' onclick='export_run(".$run_id.")'>";
-        }
-        ?>
-      </div>
-      <div id="dvrightpanel">
-        <div>
-          <input type="button" value="Retour" onclick="history.back()"/>
-        </div>
-      </div>
-    <!-- </div> -->
-    <!-- <?php include ("template/footercontainer.php"); ?> -->
+  <div id="container" style="width: 1200px; height: 1000px; margin: 0 auto"></div>
+  <div align='center'>
+    <?php
+      if (isset($run_data['gps'])) {
+        print "<br/><input type='button' name='gpx_export' value='Export GPX' onclick='export_run(".$run_id.")'>";
+      }
+    ?>
+    <input type="button" value="Retour" onclick="history.back()"/>
   </div>
-<?php include ("template/analytics.php"); ?>
 </body>
 </html>
