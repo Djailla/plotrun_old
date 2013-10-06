@@ -59,7 +59,7 @@ else {
 
 if ($run_info != false) {
   echo '<div class="CSSTableGenerator">';
-  echo '<table><tr><th colspan="4" text-align="left">'.$n->userId.'</th><th text-align="right">Lien</th></tr>';
+  echo '<table><tr><th colspan="5" text-align="left">'.$n->userId.'</th><th text-align="right">Lien</th></tr>';
   foreach ($run_info as &$value) {
     echo '<tr>';
     echo '<td><i>'.$value[time_str].'</i></td>';
@@ -81,6 +81,11 @@ if ($run_info != false) {
 
     # Disply link
     echo '<td><a href="result.php?run_id='.$value[runId].'">Graphe</a></td>';
+
+    # Display GPS icon
+    if ($value[gps] == 1) {
+      echo '<td><a href="export.php?run_id='.$value[runId].'">Export GPX</a></td>';
+    }
 
     echo '</tr>';
   }
