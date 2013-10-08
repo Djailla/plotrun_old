@@ -90,6 +90,9 @@ if ($run_info != false) {
     if ($value[gps] == 1) {
       echo '<td><a href="export.php?run_id='.$value[runId].'">Export GPX</a></td>';
     }
+    else {
+      echo '<td></td>';
+    }
 
     echo '</tr>';
   }
