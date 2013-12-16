@@ -52,7 +52,6 @@
 
 
 <body onload="main_load();">
-<?php include ("template/feedback.php"); ?>
   <div id="dvmaincontainer">
     <?php include ("template/topcontainer.php"); ?>
     <div id="dvbodycontainer">

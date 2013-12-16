@@ -126,7 +126,7 @@ $(function () {
 <body>
 <script src="lib/highcharts/js/highcharts.js"></script>
 <script src="lib/highcharts/js/modules/exporting.js"></script>
-  <div id="container" style="width: 1200px; height: 1000px; margin: 0 auto"></div>
+  <div id="container" style="width: 960px; height: 750px; margin: 0 auto"></div>
   <div align='center'>
     <?php
       if (isset($run_data['gps'])) {

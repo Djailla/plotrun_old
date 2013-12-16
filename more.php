@@ -29,7 +29,6 @@ else {
 </head>
 
 <body>
-<?php include("template/feedback.php"); ?>
   <div id="dvmaincontainer">
     <?php include ("template/topcontainer.php"); ?>
     <div id="dvbodycontainer">

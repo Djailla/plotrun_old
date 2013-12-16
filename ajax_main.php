@@ -9,8 +9,18 @@
   echo "
   <b>Connectez vous :</b><br/><br/>
   <form>
-    E-Mail : <input type='text' name='nike_user' size='20'><br>
-    Mot de passe : <input type='password' name='nike_pass' size='17'><br><br>
+    <table>
+      <tr>
+        <td><center>E-Mail :</center></td>
+        <td></td>
+        <td><input type='text' name='nike_user' size='20'></td>
+      </tr>
+      <tr>
+        <td>Mot de passe : </td>
+        <td></td>
+        <td><input type='password' name='nike_pass' size='20'></td>
+      </tr>
+    <table>
     <input type='button' value='GO' onClick='go(this.form);'>
   </form>";
 // }
